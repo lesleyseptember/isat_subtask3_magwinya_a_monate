@@ -172,7 +172,7 @@ int main() {
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "Please enter a number between 1 and 5.\n";
             continue;
-        }
+        } //Add input validation and error handling
 
         switch (choice) {
             case 1: addOrder(); break;
