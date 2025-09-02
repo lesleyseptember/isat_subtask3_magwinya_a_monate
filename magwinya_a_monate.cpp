@@ -155,6 +155,7 @@ void calculateRevenue() {
 // main program 
 int main() {
     seedInitialData();  // preload orders
+                        //Fix total amounts in seeded initial data
 
     int choice;
     do {
