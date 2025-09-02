@@ -55,6 +55,7 @@ int findIndexById(int id) {
 }
 
 //Menu
+//Improve display formatting for order list
 void addOrder() { //Allow user to input custom Order ID when adding new orders
     if (orderCount >= MAX_ORDERS) {
         cout << "Storage full. Cannot add more orders.\n";
